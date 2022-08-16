@@ -1,0 +1,358 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none
+}
+header{
+    height: 60px;
+    /* border: 5px solid red; */
+    background-color:rgb(223, 21, 21);
+}
+#brandname{
+    color: white;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.searchbar{
+    /* border: 2px solid black; */
+    height: 40px;
+    width: 60%;
+    float: left;
+    margin-left: 204px;
+    margin-top: -42px;
+}
+.searchbar input[type=text]{
+    height: 32px;
+    width: 100%;
+    font-size: 15px;
+}
+#social{
+    float: right;
+    margin-top: -48px;
+    margin-right: 10px;
+}
+.socialimg{
+    height: 40px;
+}
+
+
+
+#container{
+    /* height: 2000px; */
+    /* border: 3px dotted green; */
+    width: 80%;
+    margin-left: 10%;
+    display: inline-block;
+}
+.filter{
+    /* height: 273px; */
+    width: 99%;
+    border: 2px solid rgb(70, 70, 70);
+    margin-top: 3px;
+    /* margin-left: 1%; */
+    display: inline-block;
+
+}
+#filtn{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+.selectlocation{
+    margin-left: 5px;
+
+}
+select{
+    margin-top: 1px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: -2px;
+    margin-bottom: 2px;
+}
+.filcontent{
+    /* height: 144px; */
+    width: 100%;
+    /* border: 2px dotted blue; */
+}
+.filtile1{
+    /* border: 2px dotted red; */
+    /* height: 140px; */
+    float: left;
+    width: 20%;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+details > summary {
+    list-style: none;
+}
+/* details > summary::-webkit-details-marker {
+    display: none;
+} */
+.filtile2{
+    /* border: 2px dotted yellow; */
+    /* height: 140px; */
+    float: left;
+    width: 20%;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+.filtile3{
+    /* border: 2px dotted green; */
+    /* height: 140px; */
+    float: left;
+    width: 20%;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+.filtile4{
+    /* border: 2px dotted pink; */
+    /* height: 140px; */
+    float: left;
+    width: 20%;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+.content{
+    /* border: 2px solid grey; */
+    margin-top: 3px;
+    /* height: 1500px; */
+    width: 99%;
+    display: inline-block;
+}
+.tilecontainer{
+    height: 300px;
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-top: 3%;
+    float: left;
+    box-shadow: 4px 2px 10px gray;
+}
+.tilecontainer:hover{
+    transform: scale(1.1);
+}
+.tilecomponent1{
+    width: 48%;
+    float: left;
+}
+.tilecomponent1 img{
+    height: 301px;
+    border-radius: 25px;
+    width: 100%;
+}
+.tilecomponent2{
+    float: left;
+    margin-top: -12px;
+    margin-left: 3%;
+   
+
+}
+.tilehead{
+    color: rgb(2, 135, 171);
+}
+#subcon{
+    margin-top: -18px;
+}
+#rate{
+    color: red;
+    margin-top: -8px;
+}
+#price{
+    font-size: 23px;
+    margin-top: -11px;
+}
+.featurefig{
+    width: 100%;
+    display: inline-block;
+}
+figure{
+    float: left;
+    margin-left: 1px;
+}
+.figicon{
+    height: 30px;
+    width: 30px;
+    margin-top: -15px;
+}
+figcaption{
+    font-size: 10px;
+    
+}
+#offer{
+    color: orangered;
+    margin-top: -8px;
+}
+.blue{
+    background-color: rgb(170, 169, 228);
+    margin-left: 1px;
+}
+.green{
+    background-color: rgb(105, 238, 105);
+    margin-left: 4px;
+}
+.orange{
+    background-color: rgb(234, 158, 130);
+    margin-left: 4px;
+}
+.violet{
+    background-color: rgb(55, 190, 240);
+    margin-left: 4px;
+}
+.Yellow{
+    background-color: rgb(237, 237, 104);
+    margin-left: 4px;
+}
+footer{
+    /* border: 3px double red; */
+    background-color: rgb(223, 21, 21);
+    margin-top: 15px;
+    height: 100px;
+
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+ul{
+    list-style: none;
+}
+
+
+@media screen and (max-width:1400px){
+
+}
+
+@media screen and (max-width:1200px){
+
+    
+}
+
+@media screen and (max-width:1000px){
+    .filtile3 {
+        float: left;
+        width: 15%;
+        margin-left: 5px;
+        margin-right: 20px;
+    }
+    .filtile4 {
+        float: left;
+        width: 16%;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+    
+}
+
+@media screen and (max-width:900px){
+    .tilecomponent1 {
+        width: 46%;
+        float: left;
+    }
+    .tilecomponent2 {
+        float: left;
+        margin-top: -12px;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .searchbar{
+        width: 52%;
+        margin-left: 178px;
+    }
+    .filtile1 {
+        float: left;
+        width: 22%;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    .filtile2 {
+        float: left;
+        width: 20%;
+        margin-left: 5px;
+        margin-right: 20px;
+    }
+    .filtile3 {
+        float: left;
+        width: 20%;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    .filtile4 {
+        float: left;
+        width: 20%;
+        margin-left: 5px;
+        margin-right: 20px;
+    }
+    .tilecomponent1 {
+        width: 39%;
+        float: left;
+    }
+    .tilecomponent2 {
+        float: left;
+        margin-top: -12px;
+        margin-left: 0%;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    .searchbar {
+        width: 46%;
+        margin-left: 178px;
+    }
+    .filtile1 {
+        float: left;
+        width: 25%;
+        margin-left: 3px;
+        margin-right: 0px;
+    }
+    
+    .filtile2 {
+        float: left;
+        width: 21%;
+        margin-left: 13px;
+        margin-right: -1px;
+    }
+    
+    .filtile3 {
+        float: left;
+        width: 17%;
+        margin-left: 17px;
+        margin-right: 3px;
+    }
+    
+    .filtile4 {
+        float: left;
+        width: 23%;
+        margin-left: 13px;
+        margin-right: 0px;
+    }
+
+    .tilecomponent1 {
+        width: 30%;
+        float: left;
+    }
+    .tilecomponent2 {
+        float: left;
+        margin-top: -324px;
+        margin-left: 30%;
+    }
+    
+    
+}
+
+@media screen and (max-width:600px){
+    .searchbar {
+        width: 32%;
+        margin-left: 178px;
+    }
+    .tilecomponent1 {
+        width: 17%;
+        float: left;
+    }
+    .tilecomponent2 {
+        float: left;
+        margin-top: -329px;
+        margin-left: 17%;
+    }
+}

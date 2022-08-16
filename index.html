@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zomato Listing Page</title>
+        <link rel="stylesheet" href="Zomato list.css"/>
+        <link rel="icon" href="https://i.ibb.co/qDhT6ZC/Zomato.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div id="brandname">
+                Zomato
+            </div>
+            <div class="searchbar">
+                <input type="text" placeholder="Search by restuarant,dish....">
+            </div>
+              
+              
+            <div id="social">
+                <a href="www.facebook.com" target="_blank">
+                    <img src="https://i.ibb.co/XJ8Qgc2/facebook.png" alt="FB" title="Facebook" class="socialimg"/>
+                </a>
+                <a href="www.youtube.com" target="blank">
+                    <img src="https://i.ibb.co/W2gcPKM/Youtube.png" alt="Ytube" title="Youtube" class="socialimg"/>
+                </a>
+            </div>
+        </header>
+        <div id="container">
+            <div class="filter">
+              <details>
+                    <summary>
+                        <h1 id="filtn">Filter</h1>
+                    </summary>
+                    <div>
+                        <div class="selectlocation">
+                            <h3>Select Location</h3>
+                        </div>
+                        <select>
+                            <option>--Select--</option>
+                            <option>Visakhapatnam</option>
+                        </select>
+                    </div>
+                    <div class="filcontent">
+                        <div class="filtile1">
+                            <details>
+                                <summary><h3>Cusine Filter</h3></summary>
+                                <div class="m">
+                                    <label class="cufin"> 
+                                        <input type="checkbox"/>North-Indian
+                                    </label>
+                                    <div class="cufin">  
+                                        <input type="checkbox">Bengali
+                                    </div>
+                                    <div class="cufin">   
+                                        <input type="checkbox"/>Bombay
+                                    </div> 
+                                </div>
+                            </details>
+                        </div>
+                        <div class="filtile2">
+                            <details>
+                                <summary><h3>Cost Filter</h3></summary>
+                                <div class="m">
+                                    <div class="costfil">
+                                        <input type="checkbox">100-300    
+                                    </div>
+                                    <div class="costfil">
+                                        <input type="checkbox">300-600   
+                                    </div>
+                                    <div class="costfil">
+                                        <input type="checkbox">600-1000    
+                                    </div>
+                                </div>
+                            </details>
+                        </div>
+                        <div class="filtile3">
+                            <details>
+                                <summary><h3>Rating</h3></summary> 
+                                <div class="m">
+                                    <div class="ratefil">
+                                        <input type="checkbox">2.5-3.5    
+                                    </div>
+                                    <div class="ratefil">
+                                        <input type="checkbox">3.5-4   
+                                    </div>
+                                    <div class="ratefil">
+                                        <input type="checkbox">4 above 
+                                    </div>
+                                </div>
+                            </details>
+                        </div>
+                        <div class="filtile4">
+                            <details>
+                                <summary><h3>Offer Filter</h3></summary> 
+                                <div class="m">
+                                    <div class="offerfil">
+                                        <input type="checkbox">60%    
+                                    </div>
+                                    <div class="offerfil">
+                                        <input type="checkbox">50%   
+                                    </div>
+                                    <div class="offerfil">
+                                        <input type="checkbox">40%   
+                                    </div>
+                                    <div class="offerfil">
+                                        <input type="checkbox">30%   
+                                    </div>
+                                </div>
+                            </details>
+                        </div>
+
+                    </div>
+                </details>
+            </div>
+            <div class="content">
+                <div class="tilecontainer">
+                    <div class="tilecomponent1">
+                        <img src="https://i.ibb.co/9y5LbQ2/North-Indian.webp" alt="North"/>
+                    </div>
+                    <div class="tilecomponent2">
+                        <div class="tilehead">
+                            <h1>NorthIn Restaurant</h1>
+                        </div>
+                        <p id="subcon">Dwaraka Nagar, lane-4, oppo vignan school, VSP</p>
+                        <div id=rate>
+                            <h3>Rating: 3.4</h3>
+                        </div>
+                        <h3 id="price">Rs. 150 for one</h3>
+                        
+                        <div class="featurefig">
+                            <figure>
+                                <img src="https://i.ibb.co/XWy8F3Z/delivery.png" alt="delivery" class="figicon"/>
+                                <figcaption>Fast delivery</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="https://i.ibb.co/SN8Z11M/sentizied.png" alt="sanitized" class="figicon"/>
+                                <figcaption>Sanitized</figcaption>
+                            </figure>
+                        </div>
+                        <h3 id="offer">50% Offer order above 350/-</h3>
+                            <span class="blue">Bengali</span>
+                            <span class="green">chinese</span>
+                            <span class="orange">Biriyani</span>
+                            <span class="violet">Fast Foods</span>
+                    </div>
+                </div>
+
+                <div class="tilecontainer">
+                    <div class="tilecomponent1">
+                        <img src="https://i.ibb.co/T1kPpYj/Bommbayrest.jpg" alt="Bombay"/>
+                    </div>
+                    <div class="tilecomponent2">
+                        <div class="tilehead">
+                            <h1>Bombay Restaurant</h1>
+                        </div>
+                        <p id="subcon">Jagadamba complex, oppo leela mahal Jnt, VSP</p>
+                        <div id=rate>
+                            <h3>Rating: 4.5</h3>
+                        </div>
+                        <h3 id="price">Rs. 350 for two</h3>
+                        
+                        <div class="featurefig">
+                            <figure>
+                                <img src="https://i.ibb.co/XWy8F3Z/delivery.png" alt="delivery" class="figicon"/>
+                                <figcaption>Fast delivery</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="https://i.ibb.co/SN8Z11M/sentizied.png" alt="sanitized" class="figicon"/>
+                                <figcaption>Sanitized</figcaption>
+                            </figure>
+                        </div>
+                        <h3 id="offer">60% Offer order above 500/-</h3>
+                            <span class="blue">Chicken Grill</span>
+                            <span class="green">Soups</span>
+                            <span class="orange">Kalmi Biriyani</span>
+                            <span class="violet">Cutlets</span>
+                    </div>
+                </div>
+
+                <div class="tilecontainer">
+                    <div class="tilecomponent1">
+                        <img src="https://i.ibb.co/kDQQw9d/KFC.jpg" alt="KFC"/>
+                    </div>
+                    <div class="tilecomponent2">
+                        <div class="tilehead">
+                            <h1>KFC</h1>
+                        </div>
+                        <p id="subcon">RTC complex, Main road, VSP</p>
+                        <div id=rate>
+                            <h3>Rating: 4.2</h3>
+                        </div>
+                        <h3 id="price">Rs. 450 for two</h3>
+                        
+                        <div class="featurefig">
+                            <figure>
+                                <img src="https://i.ibb.co/XWy8F3Z/delivery.png" alt="delivery" class="figicon"/>
+                                <figcaption>Fast delivery</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="https://i.ibb.co/SN8Z11M/sentizied.png" alt="sanitized" class="figicon"/>
+                                <figcaption>Sanitized</figcaption>
+                            </figure>
+                        </div>
+                        <h3 id="offer">30% Offer order above 500/-</h3>
+                            <span class="blue">Spoken Chicken</span>
+                            <span class="green">French Fries</span>
+                            <span class="orange">Burger</span>
+                            <span class="violet">Mojito</span>
+                    </div>
+                </div>
+
+                <div class="tilecontainer">
+                    <div class="tilecomponent1">
+                        <img src="https://i.ibb.co/DW8kff9/7th-Heavean.jpg" alt="7th heaven"/>
+                    </div>
+                    <div class="tilecomponent2">
+                        <div class="tilehead">
+                            <h1>7th-Heavean</h1>
+                        </div>
+                        <p id="subcon">Dwaraka nagar mainroad, VSP</p>
+                        <div id=rate>
+                            <h3>Rating: 4.1</h3>
+                        </div>
+                        <h3 id="price">Rs. 150 for One</h3>
+                        
+                        <div class="featurefig">
+                            <figure>
+                                <img src="https://i.ibb.co/XWy8F3Z/delivery.png" alt="delivery" class="figicon"/>
+                                <figcaption>Fast delivery</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="https://i.ibb.co/SN8Z11M/sentizied.png" alt="sanitized" class="figicon"/>
+                                <figcaption>Sanitized</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="https://i.ibb.co/x8Y9JZ9/veg-pure.png" alt="Veg" class="figicon"/>
+                                <figcaption>Veg-pure</figcaption>
+                            </figure>
+                        </div>
+                        <h3 id="offer">20% Offer order above 300/-</h3>
+                            <span class="blue">Cakes</span>
+                            <span class="green">Deserts</span>
+                            <span class="orange">Puffs</span>
+                            <span class="violet">Rolls</span>
+                            <span class="Yellow">Mug Cakes</span>
+                    </div>
+                </div>
+
+                <div class="tilecontainer">
+                    <div class="tilecomponent1">
+                        <img src="https://i.ibb.co/d6c0s3P/Soups-Stop.jpg" alt="Soups-Stop"/>
+                    </div>
+                    <div class="tilecomponent2">
+                        <div class="tilehead">
+                            <h1>Soups Stop</h1>
+                        </div>
+                        <p id="subcon">Diamond Park, oppo street, VSP</p>
+                        <div id=rate>
+                            <h3>Rating: 3.5</h3>
+                        </div>
+                        <h3 id="price">Rs. 450 for two</h3>
+                        
+                        <div class="featurefig">
+                            <figure>
+                                <img src="https://i.ibb.co/XWy8F3Z/delivery.png" alt="delivery" class="figicon"/>
+                                <figcaption>Fast delivery</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="https://i.ibb.co/SN8Z11M/sentizied.png" alt="sanitized" class="figicon"/>
+                                <figcaption>Sanitized</figcaption>
+                            </figure>
+                        </div>
+                        <h3 id="offer">20% Offer order above 400/-</h3>
+                            <span class="blue">Chicken Biriyani</span>
+                            <span class="green">Icecream</span>
+                            <span class="orange">Kalmi Biriyani</span>
+                            <span class="violet">Soups</span>
+                    </div>
+                </div>
+
+                <div class="tilecontainer">
+                    <div class="tilecomponent1">
+                        <img src="https://i.ibb.co/M9z4jJj/Thick-Shake.jpg" alt="Thick Shake"/>
+                    </div>
+                    <div class="tilecomponent2">
+                        <div class="tilehead">
+                            <h1>Thick Shake Factory</h1>
+                        </div>
+                        <p id="subcon">RK Beach Road, VSP</p>
+                        <div id=rate>
+                            <h3>Rating: 4.3</h3>
+                        </div>
+                        <h3 id="price">Rs. 400 for two</h3>
+                        
+                        <div class="featurefig">
+                            <figure>
+                                <img src="https://i.ibb.co/XWy8F3Z/delivery.png" alt="delivery" class="figicon"/>
+                                <figcaption>Fast delivery</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="https://i.ibb.co/SN8Z11M/sentizied.png" alt="sanitized" class="figicon"/>
+                                <figcaption>Sanitized</figcaption>
+                            </figure>
+                        </div>
+                        <h3 id="offer">30% Offer order above 400/-</h3>
+                            <span class="blue">Thick-Shake</span>
+                            <span class="green">Milk Shakes</span>
+                            <span class="orange">Mouse Cakes</span>
+                            <span class="violet">Pizza</span>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            
+        </div>
+        <footer>
+            <h3>&copy; Zomato</h3>
+            <ul>
+                <li>contact us :zomato@gmail.com</li>
+            </ul>
+        </footer>
+    </body>
+</html>
